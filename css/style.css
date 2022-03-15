@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1140;
+  margin: 0 auto;
+  padding: 0 15px;
+  border: 1px solid blue;
+}   
+
+.header-inner {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 15px 30px;
+  background-color: blue;
+  text-decoration: none;
+  color: black;
+  border-radius: 4px;
+}
+
+.header-nav {
+  display: none;
+}
+
+.menu {
+  position: absolute;
+  top: 45px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 15px 15px;
+  list-style: none;
+  background-color: black;
+  width: 100%;
+}
+
+
+.menu li {
+  padding: 10px 0;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu li {
+ padding: 10px 0;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu-show {
+  display: flex;
+}
+
+.intro {
+  padding: 4em 0;
+  background-color: aqua;
+}
+
+.intro-inner {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.intro-left {
+  width: 30%;
+
+}
+
+.intro-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.features {
+  text-align: center;
+  background-color: aqua;
+}
+
+.features-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.futures-list li {
+  border: 1px solid black;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  padding: 15px;
+}
+.Skills {
+  text-align: center;
+  background-color:aqua;
+}
+
+.Skills-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.Skills-list li {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.languages {
+  text-align: center;
+  background-color: #fff;
+}
+
+.lang-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid: template columns 1fr;
+}
+
+.languages li {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.Education {
+  text-align: center;
+  background-color: aqua;
+}
+
+.edu-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.Education li {
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.footer {
+  text-align: center;
+}
+
+@media (max-width: 899) {
+  html, body {
+    overflow-x: hidden;
+  }
+}
